@@ -8,8 +8,8 @@ class Timer extends Component {
     constructor() {
         super();
         this.state = {
-            input_num: 1, //inputフィールド用 単位は s 
-            countdown: 1000, //このmsまでカウントダウンする
+            input_num: 10, //inputフィールド用 単位は s 
+            countdown: 10000, //このmsまでカウントダウンする
             time_ms: 0, // START後の経過時間 単位は ms
             startAt: 0, // STOPしても経過時間を正しく計測するために使用
             isOn: false, // カウントダウン中ならTrueとなるフラグ
